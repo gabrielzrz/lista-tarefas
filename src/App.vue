@@ -1,15 +1,29 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <TheHeader msg="Hello, Vue Js. This is my component" v-show="showHeader"/>
+  <ComponentVIFELSE/>
+  <ComponentFor/>
+  <RandomImagem/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TheHeader from './components/TheHeader.vue'
+import ComponentFor from './components/ComponentFor.vue'
+import ComponentVIFELSE from './components/ComponentVIFELSE.vue'
+import RandomImagem from './components/RandomImagem.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TheHeader,
+    ComponentFor,
+    ComponentVIFELSE,
+    RandomImagem
+  },
+  data () {
+    return {
+
+    }
   }
 }
 </script>
