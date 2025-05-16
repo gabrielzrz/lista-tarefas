@@ -4,6 +4,7 @@
   <ComponentVIFELSE/>
   <ComponentFor/>
   <RandomImagem/>
+  <ComponentBind/>
 </template>
 
 <script>
@@ -11,6 +12,7 @@ import TheHeader from './components/TheHeader.vue'
 import ComponentFor from './components/ComponentFor.vue'
 import ComponentVIFELSE from './components/ComponentVIFELSE.vue'
 import RandomImagem from './components/RandomImagem.vue'
+import ComponentBind from './components/ComponentBind.vue'
 
 export default {
   name: 'App',
@@ -18,11 +20,11 @@ export default {
     TheHeader,
     ComponentFor,
     ComponentVIFELSE,
-    RandomImagem
+    RandomImagem,
+    ComponentBind
   },
   data () {
     return {
-
     }
   }
 }
